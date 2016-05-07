@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ĐỒ ÁN TỔNG HỢP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.6-dist/iquery/jquery-1.12.3.min.js"></script>
+    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 15px;
+        }
+
+        .carousel-inner img {
+            width: 100%; /* Set width to 100% */
+            margin: auto;
+            min-height:200px;
+        }
+
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+        @media (max-width: 600px) {
+            .carousel-caption {
+                display: none;
+            }
+        }
+        h3{color:#FFBF00;
+        }
+        h5{color: #D7D7D7;
+            font-size: 15px;
+            text-align: center}
+        .defaultTextActive { color: #a1a1a1; font-style: italic; }
+        .size{
+            height: 33px;
+            width: 195px;
+            text-align: left;
+        }
+        p{  color:#FFBF00;
+            font-size: 12px;
+        }
+        h4{color:#FFBF00;
+        }
+        table.ex1 {
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+        table.ex2 {
+            border-collapse: separate;
+            border-spacing: 10px 50px;
+        }
+        table.ex3 {
+            border-collapse: separate;
+            border-spacing: 50px 10px;
+        }
+        .container{
+            background-color: black;
+        }
+        .mau{
+            color: white;
+            text-align: left;
+
+        }
+        ul{border:0; margin:0; padding:0;}
+
+        #pagination-digg li{
+            border:0; margin:0; padding:0;
+            font-size:11px;
+            list-style:none;
+            margin-right:2px
+            text-align: center;
+        }
+
+        #pagination-digg a{
+            border:solid 1px #9aafe5
+            margin-right:2px;
+        }
+
+        #pagination-digg .previous-off,
+        #pagination-digg .next-off{
+            border:solid 1px #DEDEDE
+            color:#888888
+            display:block;
+            float:left;
+            font-weight:bold;
+            margin-right:2px;
+            padding:3px 4px;
+        }
+
+        #pagination-digg .next a,
+        #pagination-digg .previous a{
+            font-weight:bold;
+        }
+
+        #pagination-digg .active{
+            background:#2e6ab1;
+            color:#FFFFFF;
+            font-weight:bold;
+            display:block;
+            float:left;
+            padding:4px 6px;
+        }
+
+        #pagination-digg a:link,
+        #pagination-digg a:visited{
+            color:#0e509e
+            display:block;
+            float:left;
+            padding:3px 6px;
+            text-decoration:none;
+        }
+
+        #pagination-digg a:hover{
+            border:solid 1px #0e509e
+        }
+    </style>
+</head>
+<body class="container text-center">
+
+<div class="container text-center" style="background-color: black">
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="text-center">
+                <div >
+                    <img src="img/logo.png" alt="Image">
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-9" >
+
+            <div class="row " >
+                <div class="col-sm-12" >
+
+                    <table border="0"  >
+                        <tr>
+                            <td class="text-left panel-body">
+                                <h3><b>CÔNG TY CP KIÊN TRÚC VÀ NỘI THẤT ĐỊA LÂM</b></h3>
+                                <h5>FORESTLAND ARCHITECTURE & INTERIOR JOINT STOCK COMPANY</h5>
+                            </td>
+                            <td class="defaultTextActive  size " >
+                                <input type="text" class="size"  placeholder="Nhập dữ liệu tìm kiếm">
+
+                            </td>
+                            <td ><button><p><span class="glyphicon glyphicon-search"></span></p></button></td>
+
+                        </tr>
+                    </table>
+
+                </div>
+                <!--<div class="col-sm-12">-->
+                <!--<div class="panel panel-default ">-->
+                <!--<div class="panel-body">-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 1 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#section1.1">Section 1-1</a></li>
+                                    <li><a href="#section1.2">Section 1-2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#section2">Section 2</a></li>
+                            <li><a href="#section3">Section 3</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#section41">Section 4-1</a></li>
+                                    <li><a href="#section42">Section 4-2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--</div>-->
+                <!--<div>-->
+                <!--</div>-->
+                <!--<div class="col-sm-12">-->
+                <!--<div class="panel panel-default ">-->
+                <!--<div class="panel-body">-->
+
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<br>
+
+
+<br>
+
+<div class="container text-center">
+    <div class="panel panel-default text-left">
+        <div class="container text-center" style="background-color: black">
+
+            <div class="row">
+                <div class="col-sm-9">
+                    <div>
+                    <div class="text-left">
+                   <table border="0" width="100%">
+                       <tr>
+                           <td colspan="3" valign="top"><span class="glyphicon glyphicon-home"style="color:#FFBF00" ></span> <b style="color: #FFBF00"> Dịch vụ</b>
+                           </td>
+                       </tr>
+                       </table>
+                        </div>
+                    <br>
+                        <div>
+                            <table width="100%">
+                           <tr>
+                           <td class="text-left" width="10px" align="left" valign="top">
+                           <a href="#"> <img src="img/anh14.png"></a>
+                           </td>
+                           <td align="left" valign="top">
+                               <a href="thietkenhahang-khachsan.html"><p style="font-size:15px">Thiết kế nhà hàng -khách sạn</p></a>
+                           </td>
+
+                           <td align="right">
+                               <a href="chitiet.html"><p style="font-size: 15px">Chi tiết</p></a>
+                           </td>
+                       </tr>
+
+
+                             <tr>
+                                <td colspan="=3">
+
+                                </td>
+                             </tr>
+
+                        </table>
+
+                    </div>
+                        </div>
+                   <hr>
+                    <!--<div class="row">-->
+
+                        <!--<center>-->
+                            <!--<ul id="pagination-digg" >-->
+                                <!--<li class="active">1</li>-->
+                                <!--<li><a href="?page=2">2</a></li>-->
+                                <!--<li><a href="?page=3">3</a></li>-->
+                                <!--<li><a href="?page=4">4</a></li>-->
+                                <!--<li><a href="?page=5">5</a></li>-->
+                            <!--</ul>-->
+                        <!--</center>-->
+                        <!--</div>-->
+                    <table border="0" style="border-color: #FFBF00; height: 100%; width: 100%">
+                        <tr>
+                            <td colspan="2" valign="bottom">
+                                <ul class="pagination">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">...</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+</div>
+                <div class="col-sm-3" >
+                    <div class="panel panel-default text-center" style="background-color: black">
+                        <img src="img/dichvu.PNG" alt="Image">
+                        <div class="panel-body">
+
+                        </div>
+                    </div>
+                    <div class="panel panel-default"style="background-color: black;">
+                        <div class="panel-body">
+                            <table class="ex1">
+                                <tr><a href="#"> <img src="img/anh11.png"></a></tr>
+                                <tr>
+                                    <td>
+                                        <img src="img/anh4.PNG" alt="Image">
+                                    </td>
+                                    <td>
+                                        <a href="#">Thiết kế nhà hàng-khách sạn</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="img/anh5.PNG" alt="Image">
+                                    </td>
+                                    <td>
+                                        <a href="#">Thiết kế Showroom-gian hàng</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="img/anh6.PNG" alt="Image">
+                                    </td>
+                                    <td>
+                                        <a href="#">Thiết kế nhà ở-chung cứ</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="img/anh7.PNG" alt="Image">
+                                    </td>
+                                    <td>
+                                        <a href="#">Thiết kế văn phòng</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="img/anh8.PNG" alt="Image">
+                                    </td>
+                                    <td>
+                                        <a href="#">làm mới cho văn phòng</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<br>
+
+
+<footer class="container text-center">
+    <div class="col-sm-12" >
+        <div class="panel panel-default text-left"style="background-color: black;">
+            <div class="panel-body">
+                <table>
+                    <h4>© Bản quyền thuộc về: CÔNG TY CP KIẾN TRÚC VÀ NỘI THẤT ĐỊA LÂM</h4>
+                    <p>Địa chỉ: Phòng 903 - Tòa nhà 15T - Nguyễn Thị Định - Trung hòa Nhân chính - Cầu Giấy - Hà Nội</p>
+                    <p>Số điện thoại: 04. 3624 5679 - Fax: 04. 35558105</p>
+                    <p>E-mail: kinhdoanh@kientrucdialam.vn</p>
+                </table>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
