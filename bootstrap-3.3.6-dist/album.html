@@ -61,26 +61,36 @@
             border-bottom-color:transparent;
         }
         div.img {
-            margin: 5px;
-            border: 1px solid #ccc;
+            margin: 15px;
+            border: 0 solid #ccc;
             float: left;
-            width: 200px;
+            width: 170px;
+            height: 210px;
         }
 
         div.img:hover {
-            border: 1px solid #777;
+            border: 0 solid #777;
         }
 
         div.img img {
             width: 100%;
-            height: auto;
+            height: 150px;
         }
 
         div.desc {
             padding: 15px;
             text-align: center;
-            color: #FFBF00;
+
         }
+        a.nounderline {text-decoration: none; }
+        a:hover{
+            color:#BDBDBD;
+        }
+        /*a:visited {*/
+            /*color: #FFBF00;*/
+        /*}*/
+
+
     </style>
 </head>
 <body class="container text-center" style="background-color: black">
@@ -176,79 +186,74 @@
 
     <div class="row">
         <div class="col-sm-9">
-            <div>
-                <table border="2" style="border-color: #FFBF00" class="colordiv">
-                    <tr>
-                        <td align="left" width="10px" class="colordiv">
-                            <button><a target="_self" href="trangchu.html"><img src="img/ichome.png"></a></button>
-                        </td>
-                        <td align="left">
-                            <span class="glyphicon glyphicon-play" style="color: #FFBF00">Album</span>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <div class="img">
-                                <a target="_self" href="noithatkara.html">
-                                    <img src="img/karaoke.jpg"  width="300" height="200">
-                                    <div class="desc">Nội thất phòng karaoke</div>
-                                </a>
-                            </div>
-                            <div class="img">
-                                <a target="_self" href="noithatkara.html">
-                                    <img src="img/karaoke.jpg"  width="300" height="200">
-                                    <div class="desc">Nội thất phòng tắm</div>
-                                </a>
-                            </div>
-                            <div class="img">
-                                <a target="_self" href="noithatkara.html">
-                                    <img src="img/karaoke.jpg"  width="300" height="200">
-                                    <div class="desc">Nội thất khach sạn</div>
-                                </a>
-                            </div>
-                            <div class="img">
-                                <a target="_self" href="noithatkara.html">
-                                    <img src="img/karaoke.jpg"  width="300" height="200">
-                                    <div class="desc">Nội thất phòng khách</div>
-                                </a>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <div class="img">
-                                <a target="_self" href="noithatkara.html">
-                                    <img src="img/karaoke.jpg"  width="300" height="200">
-                                    <div class="desc">Nội thất phòng ngủ</div>
-                                </a>
-                            </div>
-                            <div class="img">
-                                <a target="_self" href="noithatkara.html">
-                                    <img src="img/karaoke.jpg"  width="300" height="200">
-                                    <div class="desc">Nội thất nhà hàng</div>
-                                </a>
-                            </div>
-                            <div class="img">
-                                <a target="_self" href="noithatkara.html">
-                                    <img src="img/karaoke.jpg"  width="300" height="200">
-                                    <div class="desc">Nội thất phòng văn phòng</div>
-                                </a>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <ul class="pagination">
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">1</a></li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+            <div class="panel panel-default text-left" style="border-color: #FFBF00">
+                <div class="panel-body"  style="background-color:black">
+                    <table  border=0 class="text-center">
+                        <tr> <td colspan="2" valign="top"><span class="glyphicon glyphicon-home"style="color:#FFBF00" ></span></td>
+                            <td > <p style="font-size: 16px"><b>Liên hệ</b></p></td>
+                        </tr>
+                    </table>
+                    <table cellpadding="10px" cellspacing="1px" >
+                        <tr>
+                            <td colspan="2">
+                                <div class="img">
+                                    <a target="_self" href="noithatkara.html" class="nounderline">
+                                        <img src="img/karaoke.jpg"  width="300" height="200">
+                                        <div class="desc">Nội thất phòng karaoke</div>
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a target="_self" href="noithatphongtam.html" class="nounderline">
+                                        <img src="img/anh10.jpg"  width="300" height="200">
+                                        <div class="desc">Nội thất phòng tắm</div>
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a target="_self" href="noithatkhachsan.html" class="nounderline">
+                                        <img src="img/anh11.jpg"  width="300" height="300">
+                                        <div class="desc">Nội thất khach sạn</div>
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a target="_self" href="noithatphongkhach.html" class="nounderline">
+                                        <img src="img/anh12.jpg"  width="300" height="300">
+                                        <div class="desc">Nội thất phòng khách</div>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="img">
+                                    <a target="_self" href="noithatphongngu.html" class="nounderline">
+                                        <img src="img/anh13.jpg"  width="300" height="300">
+                                        <div class="desc">Nội thất phòng ngủ</div>
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a target="_self" href="noithatnhahang.html" class="nounderline">
+                                        <img src="img/anh20.jpg"  width="300" height="300">
+                                        <div class="desc">Nội thất nhà hàng</div>
+                                    </a>
+                                </div>
+                                <div class="img">
+                                    <a target="_self" href="noithatvanphong.html" class="nounderline">
+                                        <img src="img/anh21.jpg"  width="300" height="300">
+                                        <div class="desc">Nội thất phòng văn phòng</div>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <ul class="pagination">
+                                    <li><a href="#">1</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-
 
         </div>
         <div class="col-sm-3" >
